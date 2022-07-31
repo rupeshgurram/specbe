@@ -15,19 +15,18 @@ class CustomBlock extends BlockBase {
   /**
    * {@inheritdoc}
    */
-   
   public function build() {
 	
-	$data = \Drupal::service('specbee.specbeeservice')->getdata();
+    $data = \Drupal::service('specbee.specbeeservice')->getdata();
 	
-	$form = \Drupal::formBuilder()->getForm('Drupal\specbee\Form\SettingsForm');
+    $form = \Drupal::formBuilder()->getForm('Drupal\specbee\Form\SettingsForm');
 	
-	return [
-	  '#theme' => 'my_template',
-	  '#data' => '$data',
-	  '#form' => '$form',
-	  '#cache' => .[
-	    '#max-age => .0,
-	];
+      return [
+        '#theme' => 'my_template',
+	'#data' => '$data',
+	'#form' => '$form',
+	'#cache' => .[
+	  '#max-age => .0,
+      ];
   }
 }
