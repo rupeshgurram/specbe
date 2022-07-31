@@ -30,3 +30,4 @@ class CustomBlock extends BlockBase {
       ];
   }
 }
+
