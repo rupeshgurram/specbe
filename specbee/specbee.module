@@ -7,3 +7,4 @@ function specbee_theme($existing, $theme, $type, $path) {
     ];
   ];
 }
+
