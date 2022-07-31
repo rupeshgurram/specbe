@@ -55,16 +55,3 @@ class specbee_service{
   }
 }
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
