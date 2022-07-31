@@ -41,14 +41,14 @@ class SettingsForm extends ConfigFormBase {
 	
     $dropdowns = array(
       "0"=>'select List',
-        "america/chicago" => 'America/Chicago',
-	"america/new_York" => 'America/New_York',
-	"asia/tokyo" => 'Asia/Tokyo',
-	"asia/dubai" => 'Asia/Dubai',
-	"asia/kolkata" => 'Asia/Kolkata',
-	"europe/amsterdam" => 'Europe/Amsterdam',
-	"europe/oslo" => 'Europe/Oslo',
-	"europe/london" => 'Europe/London',
+      "america/chicago" => 'America/Chicago',
+      "america/new_York" => 'America/New_York',
+      "asia/tokyo" => 'Asia/Tokyo',
+      "asia/dubai" => 'Asia/Dubai',
+      "asia/kolkata" => 'Asia/Kolkata',
+      "europe/amsterdam" => 'Europe/Amsterdam',
+      "europe/oslo" => 'Europe/Oslo',
+      "europe/london" => 'Europe/London',
     );
 
     $form['Country'] = array(
