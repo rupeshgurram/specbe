@@ -1,5 +1,5 @@
 name: specbee
 type: module
 description: specbee Module
-core: 9.x
+core_version_requirement: ^8 || ^9
 package: Custom
